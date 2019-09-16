@@ -1,0 +1,64 @@
+:root {
+  --main-accent-color: #0083e8;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+}
+
+body {
+  background: url('images/background.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
+
+.bg-image {
+  background: url('images/background.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
+
+.dots {
+  background-image: linear-gradient(to right,#12232F 10%,transparent 0%);
+  margin: 0 auto;
+  background-position: top;
+  background-size: 40px 4px;
+  background-repeat: repeat-x;
+  max-width: 23%;
+}
+
+.btn-front {
+  display: inline-block;
+  padding: 3px 8px;
+  margin: 2px;
+  background-color: var(--main-accent-color);
+  opacity: 0.5;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+}
+
+.btn-front:hover, .btn-front:focus, .btn-front:active, .btn-front.active, .open>.dropdown-toggle.btn-front {
+  color: #fff;
+  background-color: var(--main-accent-color);
+  border-color: var(--main-accent-color);
+  opacity: 1;
+}
+
+.icons-front {
+  color: var(--main-accent-color);
+  opacity: 0.5;
+  padding: 10px;
+}
+
+.icons-front:hover, .icons-front:focus, .icons-front:active, .icons-front.active, .open>.dropdown-toggle.icons-front {
+  color: var(--main-accent-color);
+  opacity: 1;
+}
