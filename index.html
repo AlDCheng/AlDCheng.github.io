@@ -14,13 +14,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   
+  <script src="js/scroll-down.js"></script>
+  
   <!-- Own css -->
-  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
   
 <div class="container h-100">
   <div class="row h-100 justify-content-center align-items-center">
+    <section id="section1">
     <form class="col-12">
       <div style="background:transparent" class="jumbotron text-center">
         <h1 style="font-size:700%;font-weight:450" class="display-1">Alan D. Cheng</h1>
@@ -29,9 +32,9 @@
           Researcher @ Energy-Efficient Multimedia Systems Group - MIT RLE
         </p>
         <p class="lead">
-          <a class="btn btn-primary btn-front" href="pdf/ResumeAlanCheng2018.pdf" role="button">Resume</a>
-          <a class="btn btn-primary btn-front" href="projects.html" role="button">Projects</a>
-          <a class="btn btn-primary btn-front" href="contact.html" role="button">Contact</a>
+          <a class="btn btn-primary btn-front shadow" href="pdf/ResumeAlanCheng2018.pdf" role="button">Resume</a>
+          <a class="btn btn-primary btn-front shadow" href="projects.html" role="button">Projects</a>
+          <a class="btn btn-primary btn-front shadow" href="contact.html" role="button">Contact</a>
         </p>
         <div class="dots mt-4 my-2 py-2 px-5">
         </div>
@@ -42,9 +45,34 @@
           <a href="mailto:adcheng@mit.edu" class="icons-front"><i class="fa fa-envelope fa-2x"></i></a>
         </p>
       </div>
-    </div>
+    </form>
+    </section>
+    <a class="btn-arrow" href="#section2"><i class="fa fa-arrow-circle-down fa-3x"></i></a>
   </div>
 </div>
+  
+<div class="parallax">
+  <div class="p-5 row-fluid justify-content-center padding-top-xl">
+    <section id="section2">
+      <div class="container">
+        <div class="jumbotron shadow my-5">
+          <h4 class="display-4">Featured project </h4>
+          <h5 class="display-5"> Low power time-of-flight imaging for augmented reality </h5>
 
+          <p class="lead">
+            Lorem ipsum dolor sit amet, quot dolor consulatu ad mel. Option expetenda periculis eu vis. Pri cibo harum fastidii ad. Stet admodum cotidieque quo eu, integre reformidans eam ei. Ut probo nobis sapientem quo, at altera veritus lucilius sit, ut deleniti percipit pericula usu.
+          </p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+  
 </body>
+  
+<footer>
+  <p class="lead">© <script>document.write(new Date().getFullYear())</script></p>
+</footer>
+  
 </html>
